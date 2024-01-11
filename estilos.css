@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("./Imagenes/fondo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px; /* Ajusté el tamaño de la imagen del logo */
+    height: auto;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.horario,
+.profes {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.clases {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+.tablaprofes {
+    border-collapse: collapse;
+    width: 40%;
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+td{
+    background-color: white;
+}
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Colores asignaturas */
+.May { background-color: #ffe066; }
+.FOL { background-color: #c697e6; }
+.FH { background-color: #ffb6c1; }
+.ISO { background-color: #ffc341; }
+.REDES { background-color: #00ffff; }
+.bdb { background-color: #ad5959; }
+.recreo { background-color: #d8d8d8; }
+
+/* Estilos adicionales para mejorar la apariencia */
+h2 {
+    color: #3498db
+}
+.Sombra{
+   text-shadow: rgb(163, 163, 163) 0.1em 0.1em 0.2em; 
+   text-align: center;
+}
+.Nombre {
+    color: black;
+    text-align: center;
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em ;
+}
+
+table:hover { transform: scale(1.05); }
+td:hover { background-color: #ff6f61; }
+
+/* Añado los estilos para el carrusel de imágenes */
+.carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.imagenes {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.imagen {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:active {
+    transform: scale(0.9);
+}
